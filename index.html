@@ -2,6 +2,19 @@
   var data1 = prompt("Object");
   var data2 = prompt("Data that " + data1 + " will hold");
   console.log("encoding...");
-  console.log('{"' + data1 +'"' +  ':' + '"' + data2 + '"}');
+  var data = console.log('{"' + data1 +'"' +  ':' + '"' + data2 + '"}');
+  data
+  var beautify = prompt("Do you want to beautify? (y or n)");
+  if (beautify == "y") {
+    data = '{'
+    var dataln2 = '"' + data1 + '":' + data2 + '"'
+    var dataln3 = '}'
+    console.log(data);
+    console.log(dataln2);
+    console.log(dataln3)
+  }
+  else {
+    window.open(index.html)
+  }
 </script>
 
